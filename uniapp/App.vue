@@ -2,7 +2,7 @@
 	import request from '@/util/request.js';
 	export default {
 		globalData: {
-			site_url:'https://dati.sdwanyue.com', //网站域名
+			site_url:'https://www.lifestep.com', //网站域名
 			navHeight:0,//导航栏高度
 			userInfo:'',//用户信息
 			configInfo:[],//配置信息
