@@ -1,0 +1,118 @@
+2021-06-02 10:04:12|ERROR|User.GetBaseInfo|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(888): NotORM_Result->execute()
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(876): NotORM_Result->fetchRow('')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Common/functions.php(260): NotORM_Result->fetchOne()
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/User.php(189): checkToken('20', '2ffbf81ce20d3ac...')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_User->getBaseInfo()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-06-02 10:04:21|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', '53371cfcdf0fc66...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:22|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', 'c95ee429ecd6839...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:22|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', 'c95ee429ecd6839...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:23|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', 'd28c22170b77a99...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:24|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', '808d5a5507b9fc0...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:24|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', '808d5a5507b9fc0...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:24|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', '808d5a5507b9fc0...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:24|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', '808d5a5507b9fc0...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-06-02 10:04:24|ERROR|Login.UserLogin|PDOException: Table 'dj_sdwanyue_com.cmf_users_token' doesn't exist in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(451): NotORM_Result->insert('(user_id, token...')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(61): NotORM_Result->insert_update(Array, Array, Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(70): Model_Login->changetoken(Array, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(42): Domain_Login->updateToken('21', '808d5a5507b9fc0...')
+#6 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('18660886117')
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}

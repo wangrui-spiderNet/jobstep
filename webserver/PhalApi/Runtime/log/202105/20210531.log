@@ -1,0 +1,10 @@
+2021-05-31 17:21:54|ERROR|Tests.subTestsIndex|PDOException: Unknown column 'res_integral' in 'field list' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Tests.php(32): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Tests.php(288): Model_Tests->setAns(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Tests.php(166): Domain_Tests->subTestsIndex('21', 1622452821.948, Array)
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Tests->subTestsIndex()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
