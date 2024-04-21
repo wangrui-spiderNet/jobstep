@@ -1,29 +1,31 @@
 <template>
-	<div>
-		<h1>{{ questionnaire.name }}</h1>
-		<p>{{ questionnaire.description }}</p>
-		<div v-for="(questionItem, index) in questionnaire.questionAndAnswerList" :key="index">
-			<h3>{{ questionItem.question }}</h3>
+	<view>
+		<view>{{ questionnaire.name }}</view>
+		<view>{{ questionnaire.description}}</view>
+		<view v-for="(questionItem,index) in questionnaire.questionAndAnswerList" :key="index">
+			<view>{{questionItem.answer}}</view>
 			<textarea v-model="questionItem.answer" rows="3" placeholder="请输入答案"></textarea>
 			<p v-if="questionItem.questionDesc">{{ questionItem.questionDesc }}</p>
-		</div>
-	</div>
+		</view>
+	</view>
 </template>
 
-<script setup>
-	import {
-		ref,
-		onMounted
-	} from 'vue';
+<script>
+	import questionnaireData from '@/assets/value.json'; // 假设 JSON 文件在 src/assets 目录下
+	export default {
+		data() {
+			return {
+				questionnaire: []
+			}
+		},
+		onReady() {
+			this.questionnaire = questionnaireData
+			console.log(questionnaireData, this.questionnaire)
+		},
+		methods: {
 
-	import questionnaireData from '@/assets/value.json'; // 假设 JSON 文件在 src/assets 目录下  
-
-	console.log(questionnaireData)
-
-	// name: 'Questionnaire',
-
-	const questionnaire = ref(questionnaireData);
-	console.log("价值观:"+questionnaire)
+		}
+	}
 </script>
 
 <style scoped>

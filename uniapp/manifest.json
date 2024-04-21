@@ -85,5 +85,6 @@
         "sdkConfigs" : {
             "maps" : {}
         }
-    }
+    },
+    "vueVersion" : "2"
 }
