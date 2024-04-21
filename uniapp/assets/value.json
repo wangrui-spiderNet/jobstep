@@ -1,0 +1,63 @@
+{
+  "type": 0,
+  "name": "价值观",
+  "completePercent": 0,
+  "description": "价值观就是你认为真正重要的事情",
+  "questionAndAnswerList": [
+    {
+      "type": 0,
+      "timeStamp": 1626739200000,
+      "isAnswered": false,
+      "question": "1.尊敬的人、朋友、喜欢的角色有哪些？尊敬这些人什么地方？",
+      "answer": "马斯克",
+      "example": "马斯克",
+      "questionDesc": "为什么尊敬他？你喜欢他什么地方？",
+      "choices": [
+      ]
+    },
+    {
+      "type": 0,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "2.在小时候或青春期，影响你最深的事情或经验是什么？这些事情或经验对你的价值观带来哪些影响？",
+      "answer": "通过自己的努力考上理想中的大学",
+      "example": "通过自己的努力考上理想中的大学",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 0,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "3.现在的社会有什么不足的地方，需要改善的地方？",
+      "answer": "食品安全，儿童教育",
+      "example": "例如食品安全",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 0,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "4.在朋友眼里你是一个看中什么东西的人？在意什么东西的人？",
+      "answer": "朋友：你最看重家庭。",
+      "example": "例如，重视家庭",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 0,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "5.如果别人需要你的建议？你会给身边的人什么建议？",
+      "answer": "保持读书和学习的习惯。",
+      "example": "例如，保持读书和学习的习惯。",
+      "questionDesc": "",
+      "choices": [
+      ]
+    }
+  ]
+}

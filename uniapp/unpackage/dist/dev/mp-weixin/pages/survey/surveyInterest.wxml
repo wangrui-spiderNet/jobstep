@@ -1,0 +1,1 @@
+<view><view class="_h1">Interest页面</view><view data-event-opts="{{[['tap',[['toSurveyInterest',['$event']]]]]}}" class="home_value_view" bindtap="__e"><text>最喜欢</text></view></view>

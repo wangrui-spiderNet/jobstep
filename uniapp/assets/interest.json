@@ -1,0 +1,63 @@
+{
+  "type": 1,
+  "name": "兴趣",
+  "completePercent": 0,
+  "description": "兴趣是",
+  "questionAndAnswerList": [
+    {
+      "type": 1,
+      "timeStamp": 1626739200000,
+      "isAnswered": false,
+      "question": "1.主动花钱也愿意学的事情（不带任何功利目的，纯粹是喜欢）",
+      "answer": "",
+      "example": "",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "2.你书架上有什么类型的书？",
+      "answer": "",
+      "example": "",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "3.有没有什么内容或者事物，对你人生有很大的帮助，感到救赎？",
+      "answer": "",
+      "example": "",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "4.迄今为止在生活中，你特别想道谢的工作是什么？",
+      "answer": "",
+      "example": "例如，你成长中的某位老师",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "5.迄今为止，你对社会生活中什么事情感到不满或愤怒？",
+      "answer": "",
+      "example": "例如，有一个同事明明不擅长活跃气氛，在那里强自活跃",
+      "questionDesc": "",
+      "choices": [
+      ]
+    }
+  ]
+}

@@ -1,6 +1,12 @@
 {
   "pages": [
+    "pages/guide/guide",
+    "pages/userinfo/userinfo",
+    "pages/survey/surveyValue",
+    "pages/survey/surveyTalent",
+    "pages/survey/surveyInterest",
     "pages/index/index",
+    "pages/home/home",
     "pages/login/index",
     "pages/webview/index",
     "pages/question/question",
@@ -21,7 +27,9 @@
     "components/see-list/see-list",
     "pages/about/banner",
     "pages/ranking/ranking",
-    "pages/answer_history/answer_history"
+    "pages/answer_history/answer_history",
+    "pages/picker/picker",
+    "pages/picker-view/picker-view"
   ],
   "subPackages": [],
   "window": {

@@ -1,0 +1,29 @@
+
+page {
+	margin: 30rpx;
+}
+.uni-title-uni-common-pl {
+	margin-top: 20rpx;
+	font-weight: bold;
+}
+.uni-picker-tips {
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 15px;
+	padding: 0 15px;
+	/* text-align: right; */
+}
+.button-container {
+	/* width: 80%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50rpx;
+}
+.next{
+	background-color: cornflowerblue;
+	color: #fff;
+}
+
+
+

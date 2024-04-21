@@ -24,7 +24,7 @@
 				</block>
 			</swiper>
 		<view class="index-gao">
-		  <image src="/static/images/gonggao.png" class="index-gao-text"></image>
+		  <image @click="toGuidePage" src="/static/images/gonggao.png" class="index-gao-text"></image>
 		  <swiper class="index-gao-swiper" autoplay="true" interval="1500" circular="true" duration="500" vertical="true" display-multiple-items="1">
 			<block v-for="(item,index) in notice" :key="index">
 			  <swiper-item>
@@ -162,6 +162,7 @@
 	import navTitle from '@/components/nav-title/nav-title.vue';
 	import articleList from '@/components/article-list/article-list.vue';
 	import request from '@/util/request.js';
+import guideVue from '../guide/guide.vue';
 
 	const app = getApp();
 	export default {
@@ -232,7 +233,11 @@
 		},
 		
 		methods: {
-			
+			toGuidePage(){
+				uni.navigateTo({
+					url:'/pages/guide/guide'
+				})
+			},
 			bannerTo(item, index) {
 				if(index == 0) {
 					uni.navigateTo({
@@ -554,8 +559,8 @@
 	page{
 		/* background: #FAFAFA; */
 		/* 修改主界面背景 */
-		background-image: url(../../static/images/login_bg.png);
-	/* 	background-image: url(http://campus.51job.com/yonyou/img/index_bg.png); */
+		/* background-image: url(../../static/images/login_bg.png); */
+		background-image: url(https://upload-images.jianshu.io/upload_images/5809200-a99419bb94924e6d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
 		background-size: 100% 100%;
 	}
 	.index-nav-li-text{

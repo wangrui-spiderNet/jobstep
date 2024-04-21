@@ -1,0 +1,63 @@
+{
+  "type": 1,
+  "name": "天赋",
+  "completePercent": 0,
+  "description": "天赋是你从来没有学过但是就觉得很简单",
+  "questionAndAnswerList": [
+    {
+      "type": 1,
+      "timeStamp": 1626739200000,
+      "isAnswered": false,
+      "question": "1.目前人生最充实的经历是什么？",
+      "answer": "",
+      "example": "早上5点钟起床冥想、阅读、学习的时候",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "2.最近一次让你不耐烦的事情是什么？",
+      "answer": "",
+      "example": "",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "3.问周围的人你擅长什么？",
+      "answer": "",
+      "example": "例如，食品安全",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "4.如果明天辞职，这份工作有哪些部分会让你想继续做下去？如果现在没工作，请以上一份工作思考这个问题。",
+      "answer": "",
+      "example": "",
+      "questionDesc": "",
+      "choices": [
+      ]
+    },
+    {
+      "type": 1,
+      "timeStamp": 1626825600000,
+      "isAnswered": false,
+      "question": "5.到目前为止做成功了什么事情？",
+      "answer": "",
+      "example": "",
+      "questionDesc": "",
+      "choices": [
+      ]
+    }
+  ]
+}

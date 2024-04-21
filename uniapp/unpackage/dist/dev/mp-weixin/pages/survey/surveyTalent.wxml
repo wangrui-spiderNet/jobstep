@@ -1,0 +1,1 @@
+<view><view class="_h1">Talent页面</view><view data-event-opts="{{[['tap',[['toSurveyTallent',['$event']]]]]}}" class="home_value_view" bindtap="__e"><text>天赋</text></view></view>
