@@ -3,9 +3,10 @@
 		<view>{{ questionnaire.name }}</view>
 		<view>{{ questionnaire.description}}</view>
 		<view v-for="(questionItem,index) in questionnaire.questionAndAnswerList" :key="index">
-			<view>{{questionItem.answer}}</view>
+			<view>{{questionItem.question}}</view>
+			<view>{{questionItem.example}}</view>
 			<textarea v-model="questionItem.answer" rows="3" placeholder="请输入答案"></textarea>
-			<p v-if="questionItem.questionDesc">{{ questionItem.questionDesc }}</p>
+			<!-- <p v-if="questionItem.questionDesc">{{ questionItem.questionDesc }}</p> -->
 		</view>
 	</view>
 </template>
