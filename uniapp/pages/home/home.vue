@@ -11,7 +11,11 @@
 		</view>
 
 		<view class="home_value_view" @click="toSurveyInterest">
-			<text>最喜欢</text> 
+			<text>兴趣</text> 
+		</view>
+		
+		<view class="home_value_view" @click="toCareerPlan">
+			<text>职业规划报告</text> 
 		</view>
 	</view>
 
@@ -40,6 +44,9 @@
 				uni.navigateTo({
 					url: '/pages/survey/surveyInterest'
 				})
+			},
+			toCareerPlan(){
+				
 			}
 		}
 	}
@@ -56,6 +63,7 @@
 		margin-top: 20rpx;
 		width: 100%;
 		height: 100rpx;
+		padding: 20rpx;
 		background-color: antiquewhite;
 		display: flex;
 	}
